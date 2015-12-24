@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <definitions id="definitions" targetNamespace="http://activiti.org/bpmn20" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
+        <process id="seqflow" name="seq flow">
+            <startEvent id="theStart" />
+            <sequenceFlow id='flow1' sourceRef='theStart' targetRef='runCeleryTask' />
+            <scriptTask id="runCeleryTask" name="run celery steps" scriptFormat="JavaScript" activiti:autoStoreVariables="false">
+                <script>
+                    print("Hello Jerry!");
+                </script>
+            </scriptTask>
+            <sequenceFlow id='flow2' sourceRef='runCeleryTask' targetRef='theEnd' />
+            <endEvent id="theEnd" />
+        </process>
+    </definitions>
