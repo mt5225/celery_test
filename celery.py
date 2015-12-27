@@ -7,6 +7,9 @@ app = Celery('celery_test',
              backend='amqp://',
              include=['celery_test.tasks'])
 
+#set task reslut length
+app.Task.resultrepr_maxsize = 2000
+
 # Optional configuration, see the application user guide.
 app.conf.update(
     CELERY_TASK_RESULT_EXPIRES=3600,
