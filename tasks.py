@@ -52,12 +52,13 @@ def sshAdapter(*args):
     hostname = args[0]
     port = args[1]
     username = args[2]
-    commamd = args[3].split()
+    password = args[3]
+    commamd = args[4].split()
     shell = spur.SshShell(
         hostname=hostname,
         port=int(port),
         username=username,
-        private_key_file="/Users/mt5225/pem/website_en.pem",
+        password=password,
         missing_host_key=spur.ssh.MissingHostKey.accept
     )
     with shell:

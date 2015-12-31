@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"K",
+				"Kirkland核桃仁"
+			],
+			[
 				"sp",
 				"split"
 			],
@@ -404,12 +408,11 @@
 	"buffers":
 	[
 		{
-			"file": "activiti.cfg.xml",
+			"file": "/Users/mt5225/Downloads/momoda_api_2015_12_29_en/document.html",
 			"settings":
 			{
-				"buffer_size": 977,
-				"line_ending": "Unix",
-				"name": "<beans xmlns=\"http://www.springframework.org/schem"
+				"buffer_size": 7073,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -493,21 +496,25 @@
 	},
 	"file_history":
 	[
+		"/Users/mt5225/Projects/playground/celery_test/activiti.cfg.xml",
+		"/Users/mt5225/Projects/playground/celery_test/flow1.xml",
+		"/Users/mt5225/Projects/playground/celery_test/backends.py",
+		"/Users/mt5225/Projects/playground/celery_test/tasks.py",
+		"/Users/mt5225/Desktop/[年货干果零食屯起来]",
+		"/Users/mt5225/Projects/playground/flowerconfig.py",
+		"/Users/mt5225/Projects/playground/celery_test/celery.py",
+		"/Users/mt5225/Projects/playground/celery_test/flowerconfig.py",
 		"/Users/mt5225/Projects/playground/celery_test/pe/CallProcess.java",
 		"/Users/mt5225/Projects/playground/celery_test/pe/RunTask.java",
 		"/Users/mt5225/Projects/playground/celery_test/test/sshtest.py",
 		"/Users/mt5225/Projects/playground/celery_test/test/snmpget.sh",
 		"/Users/mt5225/Projects/playground/celery_test/test/snmpwalk_pub.py",
-		"/Users/mt5225/Projects/playground/celery_test/flow1.xml",
 		"/Users/mt5225/Downloads/jerry_process_t001.bpmn20.xml",
 		"/Users/mt5225/Downloads/flow1.bpmn20.xml",
-		"/Users/mt5225/Projects/playground/celery_test/celery.py",
-		"/Users/mt5225/Projects/playground/celery_test/tasks.py",
 		"/Users/mt5225/Projects/playground/celery_test/CallProcess.java",
 		"/Users/mt5225/Projects/playground/celery_test/RunTask.java",
 		"/Users/mt5225/Desktop/finance_report.xml",
 		"/Users/mt5225/Desktop/finance_report.bpmn.xml",
-		"/Users/mt5225/Projects/playground/celery_test/backends.py",
 		"/Users/mt5225/Projects/playground/celery_test/celeryconfig.py",
 		"/Users/mt5225/Projects/corpwebsite/dcv_en_web/wiring.html",
 		"/Users/mt5225/Projects/corpwebsite/dcv_en_web/index.html",
@@ -616,11 +623,7 @@
 		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/scripts/controllers/main.coffee",
 		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/scripts/controllers/available.coffee",
 		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/scripts/controllers/cal.coffee",
-		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/html/index.html",
-		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/services/service.mngtuser.coffee",
-		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/routes/route.mngtuser.coffee",
-		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/scripts/services/service.cal.coffee",
-		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/scripts/services/service.login.coffee"
+		"/Users/mt5225/Projects/perfectlifebeta/mngtconsole/app/html/index.html"
 	],
 	"find":
 	{
@@ -641,6 +644,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"]",
+			"［",
+			"[",
+			"/袋",
+			"】",
+			"【",
 			"sid-8DF4D667-E2AF-4BD5-BA64-CFF85CD44288",
 			"dk-",
 			"Cabinet",
@@ -769,6 +778,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"】",
+			"【",
+			"［",
+			"",
+			"]",
+			"[",
 			"cabinets",
 			"",
 			"technology",
@@ -811,18 +826,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "activiti.cfg.xml",
+					"file": "/Users/mt5225/Downloads/momoda_api_2015_12_29_en/document.html",
 					"settings":
 					{
-						"buffer_size": 977,
+						"buffer_size": 7073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								977,
-								977
+								0,
+								0
 							]
 						],
 						"settings":
@@ -833,7 +848,6 @@
 								"README",
 								"FIXME"
 							],
-							"auto_name": "<beans xmlns=\"http://www.springframework.org/schem",
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -918,12 +932,11 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2933.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
